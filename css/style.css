@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+
+html
+	{
+	 	height:auto;
+		background-color:#f4ecee;
+	}
+
+body
+	{
+		width:100%;
+		margin:0px auto;	
+		color:#FFF;
+	}
+
+#header
+	{
+		background:url(../images/header.jpg) repeat-x;
+		height:100px;
+		margin:0px;
+		
+
+	}
+#header #details
+	{
+
+		width:1000px;
+		margin:0 auto;
+		padding-top:1px;
+
+	}
+	
+#header #title
+	{
+		background:url(../images/logo.png) no-repeat;
+		padding-left:120px;
+		font-family: Arial, Helvetica, sans-serif;
+		height:106px;
+	}
+
+
+	
+#second_header
+	{
+		background:url(../images/second_header.jpg) repeat-x;
+		height:314px;
+		margin:0px;
+		padding-top:47px;
+	}
+	
+#second_header #header_title 
+	{
+    	width:889px;
+		margin:auto;
+	    background:url(../images/header_title.png) no-repeat;
+		height:200px;
+	}
+
+#second_header #try_now
+	{
+
+
+		margin:auto;
+		padding-right:300px;
+		margin-top:-50px;
+	    background:url(../images/try_now.png) no-repeat;
+		width:164px;
+		height:54px;
+	}
+	
+#second_header #try_now:hover
+	{
+	    background:url(../images/try_now_hover.png) no-repeat;
+		cursor:pointer;
+	}
+
+#content
+	{
+		color:#1e9bad;
+		width:1000px;
+		margin:0 auto;
+		font:Arial, Helvetica, sans-serif;
+		font-weight:bold;
+		font-size:26px;
+
+	}
+
+#content span 
+	{
+		padding-left:10px;
+		color:#969593;
+		font-size:18px;
+		padding-bottom:52px;
+		
+	}
+
+#question_left_box
+	{
+		width:610px;
+		float:left;
+	
+	}
+#white_box
+	{
+		background:url(../images/white_box.png) no-repeat;
+		width:388px;
+		height:289px;
+		float:right;
+		position:relative;
+	}
+
+#white_box #message
+	{
+		color:#0d606a;
+		font-size:20px;
+		font-weight:bold;
+
+		padding:20px;
+
+	}
+	
+#white_box #donate_now
+	{
+		margin-left:-8px;
+		margin-top:10px;
+	    background:url(../images/donate_now.png) no-repeat;
+		width:364px;
+		height:84px;
+	}
+	
+#white_box #donate_now:hover
+	{
+	    background:url(../images/donate_now_hover.png) no-repeat;
+		cursor:pointer;
+	}
+	
+#demo_form
+	{
+	    background:url(../images/demo_form.png) no-repeat;
+		width:536px;
+		height:394px;
+		margin-top:25px;
+		float:left;
+	}
+	
+	
+#demo_form #submit
+	{
+		margin:auto;
+		margin-top:305px;
+	    background:url(../images/submit.png) no-repeat;
+		width:164px;
+		height:54px;
+	}
+	
+#demo_form #submit:hover
+	{
+	    background:url(../images/submit_hover.png) no-repeat;
+		cursor:pointer;
+	}
+	
+#demo_form_right
+	{
+		margin-top:40px;
+		width:350px;
+		float:right;
+		right:75px;
+	}
+		
+#demo_form_right #downloads
+	{
+		font-size:24px;
+		color:#499814;
+	}
+			
+#demo_form_right #instructions
+	{
+		padding-top:30px;
+		width:310px;
+		font-size:24px;
+		color:#969593;
+	}
+#footer_options
+	{
+		padding-top:50px;
+		padding-right:50px;
+		font-size:12px;
+		font-style:normal;
+		float:right;
+		list-style-type:none;
+	}
+	
+#footer_options li
+	{
+		padding-left:50px;
+		display:inline;
+	}
+#footer_options li a
+	{
+		text-decoration:none;
+				color:#969593;
+
+		
+	}

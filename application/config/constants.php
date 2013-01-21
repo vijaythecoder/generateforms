@@ -37,5 +37,18 @@ define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
 
+/*
+|--------------------------------------------------------------------------
+| Application Constants
+|--------------------------------------------------------------------------
+|
+| These are the main settings of the website
+|
+*/
+
+
+define('WEBSITE_NAME',		'Generate Contact Form');
+
+
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */
